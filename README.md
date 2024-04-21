@@ -4,14 +4,14 @@
 GoでRest APIサーバーを作成する際のサンプルソースです。
 
 ## Tool
-Language: Go 1.22
-Framework: Echo v4
-DB: MySQL 8.3.0
+Language: Go 1.22  
+Framework: Echo v4  
+DB: MySQL 8.3.0  
 
 ## install to local
-Dockerを使わずlocalで実行したい場合
-Go: https://go.dev/doc/install
-DB: https://dev.mysql.com/downloads/installer/
+Dockerを使わずlocalで実行したい場合  
+Go: https://go.dev/doc/install  
+DB: https://dev.mysql.com/downloads/installer/  
 
 ## usage
 起動
