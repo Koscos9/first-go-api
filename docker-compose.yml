@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  mysql:
+    # see: https://hub.docker.com/_/mysql
+    image: mysql:8.3.0
+    ports:
+      - "3306:3306"
+    environment:
+      # change it
+      MYSQL_DATABASE: go-sample
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+    - ./database:/docker-entrypoint-initdb.d
+  api:
+    build:
+      context: .
+    ports:
+      - "1323:1323"
