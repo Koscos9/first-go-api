@@ -11,7 +11,8 @@ DB: MySQL 8.3.0
 ## install to local
 Dockerを使わずlocalで実行したい場合  
 Go: https://go.dev/doc/install  
-DB: https://dev.mysql.com/downloads/installer/  
+DB(for win): https://dev.mysql.com/downloads/installer/  
+DB(for mac): https://dev.mysql.com/downloads/mysql/
 
 ## usage
 起動
